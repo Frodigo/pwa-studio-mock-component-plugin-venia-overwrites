@@ -1,0 +1,19 @@
+{
+  "name": "@marcinkwiatkowski/mock-component-plugin-venia-overwrites",
+  "version": "1.0.2",
+  "description": "PWA Studio Component which mocked GraphQL data",
+  "author": "Marcin Kwiatkowski <contact@frodigo.com>",
+  "license": "MIT",
+  "pwa-studio": {
+    "targets": {
+      "intercept": "intercept.js"
+    }
+  },
+  "peerDependencies": {
+    "@magento/pwa-buildpack": "*",
+    "@magento/venia-ui": "*",
+    "@marcinkwiatkowski/mock-component-plugin": "*",
+    "react": "~16.9.0",
+    "react-router-dom": "~5.1.0"
+  }
+}
